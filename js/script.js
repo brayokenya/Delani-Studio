@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $(".road").hide();
     $(".croseover").hover(function() {
-        $(this).find(".road").toggle(400);
+        $(this).find(".road").toggle(600);
     });
 
 });
@@ -22,7 +22,7 @@ $(".click2").click(function() {
 
 $("button").click(function(party) {
     var client = document.getElementById('nameDetail').value;
-    alert('Thanks ' + ' we have received your message successful. ' + '!');
+    alert(`Thank You , Message has been recieved Successfully!`);
     party.preventDefault();
 });
 //  *************RESET FORM*****************
