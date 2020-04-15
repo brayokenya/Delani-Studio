@@ -162,45 +162,54 @@
 </div>
 <div class="container-fluid " id="sec-5">
     <h5 class="text-center con">CONTACT US</h5>
-    <div class="row d-flex justify-content-center">
-        <form class="form-row mb-4">
-
-            <!-- first input form -->
-            <div class="col-md-6">
-                <input type="text" name="Name" placeholder="Name" class="form control" id="nameDetail">
+    <form action="https://formspree.io/xvobbroa" method="POST" name="feedback-form" class="validate" target="_blank" enctype=”multipart/form-data”>
+        <div class="form-row">
+            <div class="form-group col-md-2"></div>
+            <div class="form-group col-md-4">
+                <input type="text" class="form-control" name="NAME" id="NAME" placeholder="Insert Name.." required>
             </div>
-            <!-- second input form -->
-            <div class="col-md-6">
-                <input type="email" name="Email" placeholder="Email" class="form control">
+            <div class="form-group col-md-4">
+                <input type="email" class="form-control" name="EMAIL" id="EMAIL" placeholder="Insert Email.." required>
             </div>
-        </form>
-    </div>
-    <div class="row d-flex justify-content-center alefo">
-        <form class="form-row mb-4">
-            <!-- textarea  -->
-            <div class="col text-center">
-                <textarea name="message" id="meso" cols="60" rows="10" placeholder="Your message here"></textarea>
-            </div>
-        </form>
-    </div>
-    <div class="row d-flex justify-content-center ">
-        <form>
-            <button type="submit" id="btns" class="btn btn-primary">Send</button>
-        </form>
-        </form>
-    </div>
-</div>
+            <div class="form-group col-md-2"></div>
+        </div><br>
+        <div class="form-group textarea">
+            <textarea type="text" class="form-control" name="MESSAGE" id="MESSAGE" rows="6" placeholder="Type your message here.." required></textarea>
+        </div>
+        <input onclick="sendMsg()" type="submit" value="Send Message" class="btns" id="submit">
+        <br><br><br></div>
+</form>
 <div class="container  came">
-    <img src="images/social/behance.png" alt="" class="img-fluid">
-    <img src="images/social/flickr.png" alt="" class="img-fluid">
-    <img src="images/social/facebook.png" alt="" class="img-fluid">
-    <img src="images/social/dribble.png" alt="" class="img-fluid">
-    <img src="images/social/g_plus.png" alt="" class="img-fluid">
-    <img src="images/social/pinterest.png" alt="" class="img-fluid">
-    <img src="images/social/skype.png" alt="" class="img-fluid">
-    <img src="images/social/twitter.png" alt="" class="img-fluid">
-    <img src="images/social/stumble_upon.png" alt="" class="img-fluid">
-    <img src="images/social/you_tube.png" alt="" class="img-fluid">
+    <a href="https://www.twitter.com" style="text-decoration: none;">
+        <img src="images/social/twitter.png" alt="twitter">
+    </a>
+    <a href="https://www.behance.net" style="text-decoration: none;">
+        <img src="images/social/behance.png" alt="behance">
+    </a>
+    <a href="https://www.dribble.com" style="text-decoration: none;">
+        <img src="images/social/dribble.png" alt="dribble">
+    </a>
+    <a href="https://www.facebook.com" style="text-decoration: none;">
+        <img src="images/social/facebook.png" alt="facebook">
+    </a>
+    <a href="https://www.gmail.com" style="text-decoration: none;">
+        <img src="images/social/g_plus.png" alt="g_plus">
+    </a>
+    <a href="https://www.skype.com" style="text-decoration: none;">
+        <img src="images/social/skype.png" alt="skype">
+    </a>
+    <a href="https://www.stumbleupon.com" style="text-decoration: none;">
+        <img src="images/social/stumble_upon.png" alt="stumble">
+    </a>
+    <a href="https://www.pinterest.com" style="text-decoration: none;">
+        <img src="images/social/pinterest.png" alt="pinterest">
+    </a>
+    <a href="https://www.youtube.com" style="text-decoration: none;">
+        <img src="images/social/you_tube.png" alt="you tube">
+    </a>
+    <a href="https://flickr.com" style="text-decoration: none;">
+        <img src="images/social/flickr.png" alt="flickr">
+    </a>
 </div>
 <footer>
     <div class="footer">
